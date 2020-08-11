@@ -3,7 +3,7 @@ This script can help you prepare the removal of a domain from Office 365 in a Hy
 
 The function `AvadaKedavra` can remove email addresses that match the domain you speficy. While the function and `Rennervate` can be used to restore the email addresses from backup.
 
-These functions are found inside the ***Functions.ps1*** file. You could import the functions by Dot-Sourcing the script or copy-paste the whole thing in your PowerShell session.
+These functions are found inside the ***Functions.ps1*** file. You could import the functions by [Dot-Sourcing](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_scripts?view=powershell-7#script-scope-and-dot-sourcing) the script or copy-paste the whole thing in your PowerShell session.
 
 > **NOTE**: *This script is to be run in the On-Prem Exchange PowerShell only. It is expected that changes to your recipient objects are replicated to Office 365 via Azure AD Connect.*
 
